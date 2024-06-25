@@ -1,0 +1,19 @@
+/* Services Section Styles */
+#services .card {
+    border: none;
+}
+
+#services .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#services .card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#services .card-text {
+    font-size: 1em;
+}

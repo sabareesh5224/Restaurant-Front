@@ -1,0 +1,33 @@
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff5733;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5733;
+}
+
+body {
+    padding-top: 56px; 
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}

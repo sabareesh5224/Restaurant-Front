@@ -1,0 +1,47 @@
+/* Carousel.css */
+
+.carousel-root {
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
+  .carousel {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 500px; /* Set the height of the carousel */
+    display: flex;
+    
+    flex-direction: column;
+  }
+  
+  .carousel .slide {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .carousel .slide img {
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel .control-arrow {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+  
+  .carousel .control-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .legend {
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+  
